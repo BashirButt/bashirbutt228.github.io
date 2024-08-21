@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+i{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+    margin-bottom: 30px;
+    
+}
+.logo{
+    margin-left: 30px;
+    width: 100%;
+}
+.cart{
+    position: relative;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 4px ;
+    font-size: 30px;
+    padding: 5px;
+    display: flex;
+
+}
+.cartamount{
+    position: absolute;
+    left: 30px;
+    bottom: 35px;
+    background-color: red;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.shop{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 223px );
+    gap: 30px;
+    justify-content: center;
+  
+}
+@media (max-width: 1000px){
+    .shop{
+        grid-template-columns: repeat(2, 223px );
+    }
+}
+
+@media (max-width: 500px){
+    .shop{
+        grid-template-columns: repeat(1, 223px );
+    }
+}
+
+.item{
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 8px;
+    
+}
+
+.price-quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.bi-bi-dash-lg{
+
+ color: red;
+
+}
+
+.bi-bi-plus{
+   color: green; 
+}
+ 
+.text-center{
+    text-align: center;
+    margin: 25px;
+}
+
+.HomeBtn {
+    background-color: black;
+    color: white;
+    border: solid 1px;
+    padding: 6px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.bi-x-lg{
+    color: red;
+    font-weight: bold;
+}
+
+.Shopping-cart{
+    display: grid;
+    grid-template-columns: 1 , 350px;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+
+.cart-item{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 5px;
+
+}
+
+.title-price-x{
+    width: 200px;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    font-size: 16px;
+    align-content: center;
+}
+
+.title-price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.cart-item-price {
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 4px;
+  }
+
+.removeAll{
+    background-color: red;
+    color: black;
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.checkout{
+    background-color: green;
+    color: black;
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+
+
+

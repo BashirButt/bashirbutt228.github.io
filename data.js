@@ -1,0 +1,87 @@
+
+let shopitemsData = [
+    {
+      id: "casualshirt",
+      name: "Casual Shirt",
+      price: 45,
+      Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      Image: "images/img-1.jpg",
+    },
+    {
+      id: "officeshirt",
+      name: "Office Shirt",
+      price: 100,
+      Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      Image: "images/img-2.jpg",
+    },
+    {
+      id: "tshirt",
+      name: "T Shirt",
+      price: 25,
+      Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      Image: "images/img-3.jpg",
+    },
+    {
+      id: "mensuits",
+      name: "Men's Suit",
+      price: 300,
+      Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      Image: "images/img-4.jpg",
+    },
+    {
+      id: "menstie",
+      name: "Men's Tie",
+      price: 25,
+      Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      Image: "images/img-5.png",
+    },
+    {
+      id: "casualshoes",
+      name: "Casual Shoes",
+      price: 200,
+      Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      Image: "images/img-6.png",
+    },
+    {
+      id: "blacksuit",
+      name: "Black Suit",
+      price: 450,
+      Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      Image: "images/img-7.png",
+    },
+    {
+      id: "poloshirt",
+      name: "Polo Shirt",
+      price: 45,
+      Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      Image: "images/img-8.png",
+    },
+    {
+      id: "denimshirt",
+      name: "Denim Shirt",
+      price: 80,
+      Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      Image: "images/img-9.png",
+    },
+    {
+      id: "denimpents",
+      name: "Denim Pents",
+      price: 200,
+      Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      Image: "images/img-10.png",
+    },
+    {
+      id: "blackcap",
+      name: "Black Cap",
+      price: 35,
+      Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      Image: "images/img-11.png",
+    },
+    {
+      id: "leatherboots",
+      name: "Leather Boots",
+      price: 450,
+      Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      Image: "images/img-12.png",
+    }
+  ];
